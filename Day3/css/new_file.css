@@ -1,0 +1,12 @@
+div {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	border: 1px solid black;
+	/*transform: rotate(40deg);*/
+	-ms-transform: rotate(40deg);
+	-webkit-transform: rotate(40deg);
+}
+div:hover{
+	transform: rotate(160deg);
+}
